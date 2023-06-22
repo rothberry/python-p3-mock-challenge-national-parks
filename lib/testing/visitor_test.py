@@ -11,6 +11,7 @@ class TestVisitor:
         visitor = Visitor("John")
         assert (visitor.name == "John")
 
+    # @pytest.mark.skip(reason="idk...")
     def test_name_is_string(self):
         '''Visitor is initialized with a name of type str'''
         visitor = Visitor("Bob")
